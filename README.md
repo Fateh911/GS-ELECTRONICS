@@ -1,4 +1,4 @@
-# GS-ELECTRONICS Website
+# GS-ELECTRONICS
 
 A premium electronics shop website built for a local business 
 
