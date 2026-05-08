@@ -1,0 +1,266 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>G.S. ELECTRONICS</title>  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #000;
+      color: white;
+      line-height: 1.6;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      border-bottom: 1px solid #222;
+      position: sticky;
+      top: 0;
+      background: rgba(0,0,0,0.9);
+    }
+
+    nav h1 {
+      font-size: 28px;
+    }
+
+    nav a {
+      color: #bbb;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 120px 20px;
+      background: linear-gradient(to bottom, #111, #000);
+    }
+
+    .hero h2 {
+      font-size: 60px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .hero p {
+      margin-top: 20px;
+      color: #aaa;
+      font-size: 20px;
+    }
+
+    .buttons {
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      margin: 10px;
+      border-radius: 16px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn-primary {
+      background: white;
+      color: black;
+    }
+
+    .btn-secondary {
+      border: 1px solid #444;
+      color: white;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 42px;
+      margin-bottom: 50px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 24px;
+      padding: 30px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      border-color: #666;
+    }
+
+    .card-box {
+      height: 150px;
+      border-radius: 20px;
+      background: linear-gradient(to bottom right, #222, #000);
+      margin-bottom: 20px;
+    }
+
+    .card h4 {
+      font-size: 28px;
+    }
+
+    .services {
+      text-align: center;
+    }
+
+    .services p {
+      color: #aaa;
+      font-size: 18px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .contact-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      align-items: center;
+    }
+
+    .contact-box {
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 24px;
+      padding: 40px;
+    }
+
+    .contact-box p {
+      margin-top: 20px;
+      color: #ccc;
+      font-size: 18px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 24px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #222;
+      color: #777;
+    }
+
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 42px;
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style></head>
+<body>  <nav>
+    <h1>G.S. ELECTRONICS</h1><div>
+  <a href="#products">Products</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</div>
+
+  </nav>  <div class="hero">
+    <h2>Premium Electronics for Modern Living</h2><p>
+  TVs, ACs, Refrigerators, Mobiles, Washing Machines,
+  Repair Services and More.
+</p>
+
+<div class="buttons">
+  <a class="btn btn-primary" href="#contact">Contact Us</a>
+  <a class="btn btn-secondary" href="#products">Explore Products</a>
+</div>
+
+  </div>  <section id="products">
+    <h3>Our Products</h3><div class="grid">
+
+  <div class="card">
+    <div class="card-box"></div>
+    <h4>Smart TVs</h4>
+  </div>
+
+  <div class="card">
+    <div class="card-box"></div>
+    <h4>Air Conditioners</h4>
+  </div>
+
+  <div class="card">
+    <div class="card-box"></div>
+    <h4>Refrigerators</h4>
+  </div>
+
+  <div class="card">
+    <div class="card-box"></div>
+    <h4>Washing Machines</h4>
+  </div>
+
+  <div class="card">
+    <div class="card-box"></div>
+    <h4>Air Coolers</h4>
+  </div>
+
+  <div class="card">
+    <div class="card-box"></div>
+    <h4>Mobiles & Accessories</h4>
+  </div>
+
+</div>
+
+  </section>  <section id="services" class="services">
+    <h3>Repair Services</h3><p>
+  Professional repair and support services for TVs, ACs,
+  Refrigerators, Mobiles, and all major electronic appliances.
+</p>
+
+  </section>  <section id="contact">
+    <h3>Visit Our Store</h3><div class="contact-container">
+
+  <div class="contact-box">
+    <h2>Contact Information</h2>
+
+    <p>📞 Phone: +91 XXXXX XXXXX</p>
+    <p>📍 Address: Karimpur, Punjab, India</p>
+  </div>
+
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109743.78589369799!2d75.65220695!3d30.9009651"
+    loading="lazy">
+  </iframe>
+
+</div>
+
+  </section>  <footer>
+    © 2026 G.S. ELECTRONICS. All rights reserved.
+  </footer></body>
+</html>
